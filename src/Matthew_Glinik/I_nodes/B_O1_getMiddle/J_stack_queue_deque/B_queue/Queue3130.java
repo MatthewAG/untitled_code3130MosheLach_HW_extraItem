@@ -1,0 +1,13 @@
+package Matthew_Glinik.I_nodes.B_O1_getMiddle.J_stack_queue_deque.B_queue;
+
+/**
+ * An unbounded collection of elements to be processed using FIFO order.
+ */
+public interface Queue3130<E> {
+    int size();
+    boolean isEmpty();
+    void enqueue(E e);
+    E dequeue(); // throws
+    E peek();
+    @Override String toString();
+}

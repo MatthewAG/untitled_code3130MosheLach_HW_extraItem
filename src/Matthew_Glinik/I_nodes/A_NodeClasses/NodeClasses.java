@@ -1,4 +1,4 @@
-package Matthew_Glinik.I_nodes;
+package Matthew_Glinik.I_nodes.A_NodeClasses;
 
 public class NodeClasses<E> {
     // Node Classes , including material of 3130 and preview of future class \n
