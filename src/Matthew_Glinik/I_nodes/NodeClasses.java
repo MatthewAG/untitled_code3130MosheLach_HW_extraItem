@@ -80,6 +80,7 @@ public class NodeClasses<E> {
     }
 
     // Basic 2D Node . \n
+    // relates to: 2D arrays ([y][x])
     private static class Node2D_8Node<E>
     {
         Node2D_8Node<E> topLeft;       Node2D_8Node<E> topMiddle;       Node2D_8Node<E> topRight;
@@ -102,15 +103,26 @@ public class NodeClasses<E> {
     }
 
     // Basic 3D Nodes . (More advanced than 2D Nodes) \n
+    // relates to: 3D arrays ([y][x][z])
     private static class Node3D_TripleNode<E>
     {}
 
     private static class Node3D_6Node<E>
     {}
 
-    private static class Node3D_14Node<E>
+    private static class Node3D_3DNode<E>
     {}
 
-    private static class Node3D_22Node<E>
-    {}
+    private static class Node3D_26Node<E>
+    {
+        /**/                        /**/    Node3D_26Node<E> top_back_left;    Node3D_26Node<E> top_back_Middle;    Node3D_26Node<E> top_back_right;
+        /**/                    /**/        Node3D_26Node<E> Middle_back_left; Node3D_26Node<E> Middle_back_Middle; Node3D_26Node<E> Middle_back_right;
+        /**/                /**/            Node3D_26Node<E> bottom_back_left; Node3D_26Node<E> bottom_back_Middle; Node3D_26Node<E> bottom_back_right;
+        /**/            /**/    Node3D_26Node<E> topLeft;       Node3D_26Node<E> topMiddle;       Node3D_26Node<E> topRight;                      /**/
+        /**/        /**/        Node3D_26Node<E> middleLeft;    E data;                           Node3D_26Node<E> middleRight;               /**/
+        /**/    /**/            Node3D_26Node<E> bottomLeft;    Node3D_26Node<E> bottomMiddle;    Node3D_26Node<E> bottomRight;           /**/
+        Node3D_26Node<E> top_front_left;    Node3D_26Node<E> top_front_Middle;    Node3D_26Node<E> top_front_right;                   /**/
+        Node3D_26Node<E> Middle_front_left; Node3D_26Node<E> Middle_front_Middle; Node3D_26Node<E> Middle_front_right;            /**/
+        Node3D_26Node<E> bottom_front_left; Node3D_26Node<E> bottom_front_Middle; Node3D_26Node<E> bottom_front_right;        /**/
+    }
 }
