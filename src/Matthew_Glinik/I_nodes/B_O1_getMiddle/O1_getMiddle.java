@@ -29,9 +29,51 @@ public class O1_getMiddle<E> implements Deque3130<E> {
         }
     }
 
+    /*
     private Node<E> head = null, tail = null;
     private int size = 0;
+    */
+    private Node<E> head = null, tail = null;
+    private Node<E> middleLeftNode = null, middleRightNode = null;
+    private int size = 0;
 
+    private void shiftMiddle_Left()
+    {
+        if(isEmpty())
+        {
+            middleLeftNode = null;
+            middleRightNode = null;
+        }
+        else if()
+        {}
+    }
+
+    private void shiftMiddle_Right()
+    {
+        if(isEmpty())
+        {
+            middleLeftNode = null;
+            middleRightNode = null;
+        }
+        else if()
+        {}
+    }
+
+    /*
+    @Override
+    public void addFirst(E e) {
+        if (head == null) {
+            tail = head = new Node<>(e);
+        } else {
+            Node<E> node = new Node<>(e);
+            node.next = head;
+            head.previous = node;
+            head = node;
+        }
+
+        size++;
+    }
+    */
     @Override
     public void addFirst(E e) {
         if (head == null) {
