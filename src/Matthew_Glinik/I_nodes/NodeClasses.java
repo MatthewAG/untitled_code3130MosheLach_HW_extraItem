@@ -52,7 +52,7 @@ public class NodeClasses<E> {
 
         Node2D_TripleNode(Node2D_TripleNode<E> middleLeft, E data, Node2D_TripleNode<E> middleRight,
                                         Node2D_TripleNode<E> bottomMiddle) {
-            /*this.topLeft = topLeft;*/         this.topMiddle = topMiddle;         /*this.topRight = topRight;*/
+            /*this.topLeft = topLeft;         this.topMiddle = topMiddle;         this.topRight = topRight;*/
             this.middleLeft = middleLeft;   this.data = data;                   this.middleRight = middleRight;
             /*this.bottomLeft = bottomLeft;*/   this.bottomMiddle = bottomMiddle;   /*this.bottomRight = bottomRight;*/
         }
@@ -102,5 +102,15 @@ public class NodeClasses<E> {
     }
 
     // Basic 3D Nodes . (More advanced than 2D Nodes) \n
-    // Basic 3D Nodes . \n
+    private static class Node3D_TripleNode<E>
+    {}
+
+    private static class Node3D_6Node<E>
+    {}
+
+    private static class Node3D_14Node<E>
+    {}
+
+    private static class Node3D_22Node<E>
+    {}
 }
