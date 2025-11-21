@@ -41,12 +41,12 @@ public interface compareTo_Methood<E> extends Triple_isEqualTo_Methoods<E>, Trip
     // 3130 extraItem
     public default int getComparasionNumber(E o)
     {
-        compareTo_Methood_CLASS<E> compareTo_Methood_CLASS_object = new compareTo_Methood_CLASS<E>();
+        compareTo_Methood_Class<E> compareTo_Methood_CLASS_object = new compareTo_Methood_Class<E>();
         return(compareTo_Methood_CLASS_object.getComparasionNumber(o));
     }
     public default int getFilterNumber(E o)
     {
-        compareTo_Methood_CLASS<E> compareTo_Methood_CLASS_object = new compareTo_Methood_CLASS<E>();
+        compareTo_Methood_Class<E> compareTo_Methood_CLASS_object = new compareTo_Methood_Class<E>();
         return(compareTo_Methood_CLASS_object.getFilterNumber(o));
     }
 }

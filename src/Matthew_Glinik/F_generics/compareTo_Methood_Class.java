@@ -1,6 +1,6 @@
 package Matthew_Glinik.F_generics;
 
-public class compareTo_Methood_CLASS<E> {
+public class compareTo_Methood_Class<E> {
     // 3130 extraItem
     public int getComparasionNumber(E o)
     {
