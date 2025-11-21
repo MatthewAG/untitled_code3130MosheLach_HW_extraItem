@@ -1,7 +1,8 @@
 package Matthew_Glinik.I_nodes;
 
 public class NodeClasses<E> {
-    // Node
+    // Node Classes , including material of 3130 and preview of future class \n
+    // and other multi_dimensional Nodes . \n
 
     // CISC 3130: Introduction to Data Structures
     private static class Node1D_SingleNode<E>
