@@ -16,7 +16,7 @@ public class NodeClasses<E> {
         }
     }
 
-    private Node1D_SingleNode<E> headNode_Node1D_SingleNode, tailNode_Node1D_SingleNode;
+    Node1D_SingleNode<E> headNode_Node1D_SingleNode, tailNode_Node1D_SingleNode;
 
     private static class Node1D_DoubleNode<E>
     {
@@ -35,8 +35,8 @@ public class NodeClasses<E> {
         }
     }
 
-    private Node1D_DoubleNode<E> headNode_Node1D_DoubleNode, tailNode_Node1D_DoubleNode;
-    private Node1D_DoubleNode<E> middleLeftNode_Node1D_DoubleNode, middleRightNode_Node1D_DoubleNode;
+    Node1D_DoubleNode<E> headNode_Node1D_DoubleNode, tailNode_Node1D_DoubleNode;
+    Node1D_DoubleNode<E> middleLeftNode_Node1D_DoubleNode, middleRightNode_Node1D_DoubleNode;
 
     // CISC 3220: Analysis of Algorithms
     private static class Node2D_TripleNode<E>
@@ -110,7 +110,7 @@ public class NodeClasses<E> {
     private static class Node3D_6Node<E>
     {}
 
-    private static class Node3D_3DNode<E>
+    private static class Node3D_18Node<E>
     {}
 
     private static class Node3D_26Node<E>
