@@ -124,5 +124,37 @@ public class NodeClasses<E> {
         Node3D_26Node<E> top_front_left;    Node3D_26Node<E> top_front_Middle;    Node3D_26Node<E> top_front_right;                   /**/
         Node3D_26Node<E> Middle_front_left; Node3D_26Node<E> Middle_front_Middle; Node3D_26Node<E> Middle_front_right;            /**/
         Node3D_26Node<E> bottom_front_left; Node3D_26Node<E> bottom_front_Middle; Node3D_26Node<E> bottom_front_right;        /**/
+
+        Node3D_26Node(E data) {
+            this(                              null, null, null,
+                                                    null, null, null,
+                                                    null, null, null,
+                                    null, null, null,
+                                    null, data, null,
+                                    null, null, null,
+                    null, null, null,
+                    null, null, null,
+                    null, null, null);
+        }
+
+        Node3D_26Node(                                                                                                                                                                                                      Node3D_26Node<E> top_back_left, Node3D_26Node<E> top_back_Middle, Node3D_26Node<E> top_back_right,
+                                                                                                                                                                                                                            Node3D_26Node<E> Middle_back_left, Node3D_26Node<E> Middle_back_Middle, Node3D_26Node<E> Middle_back_right,
+                                                                                                                                                                                                                            Node3D_26Node<E> bottom_back_left, Node3D_26Node<E> bottom_back_Middle, Node3D_26Node<E> bottom_back_right,
+                                                                                                                                    Node3D_26Node<E> topLeft, Node3D_26Node<E> topMiddle, Node3D_26Node<E> topRight,
+                                                                                                                                    Node3D_26Node<E> middleLeft, E data, Node3D_26Node<E> middleRight,
+                                                                                                                                    Node3D_26Node<E> bottomLeft, Node3D_26Node<E> bottomMiddle, Node3D_26Node<E> bottomRight,
+                     Node3D_26Node<E> top_front_left, Node3D_26Node<E> top_front_Middle, Node3D_26Node<E> top_front_right,
+                     Node3D_26Node<E> Middle_front_left, Node3D_26Node<E> Middle_front_Middle, Node3D_26Node<E> Middle_front_right,
+                     Node3D_26Node<E> bottom_front_left, Node3D_26Node<E> bottom_front_Middle, Node3D_26Node<E> bottom_front_right) {
+            /**/                        /**/    this.top_back_left = top_back_left; this.top_back_Middle = top_back_Middle; this.top_back_right = top_back_right;
+            /**/                    /**/        this.Middle_back_left = Middle_back_left; this.Middle_back_Middle = Middle_back_Middle; this.Middle_back_right = Middle_back_right;
+            /**/                /**/            this.bottom_back_left = bottom_back_left; this.bottom_back_Middle = bottom_back_Middle; this.bottom_back_right = bottom_back_right;
+            /**/            /**/    this.topLeft = topLeft; this.topMiddle = topMiddle; this.topRight = topRight;                                                             /**/
+            /**/        /**/        this.middleLeft = middleLeft; this.data = data; this.middleRight = middleRight;                                                       /**/
+            /**/    /**/            this.bottomLeft = bottomLeft; this.bottomMiddle = bottomMiddle; this.bottomRight = bottomRight;                                   /**/
+            this.top_front_left = top_front_left; this.top_front_Middle = top_front_Middle; this.top_front_right = top_front_right;                               /**/
+            this.Middle_front_left = Middle_front_left; this.Middle_front_Middle = Middle_front_Middle; this.Middle_front_right = Middle_front_right;         /**/
+            this.bottom_front_left = bottom_front_left; this.bottom_front_Middle = bottom_front_Middle; this.bottom_front_right = bottom_front_right;     /**/
+        }
     }
 }
