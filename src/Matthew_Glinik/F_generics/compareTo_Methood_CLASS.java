@@ -1,6 +1,7 @@
 package Matthew_Glinik.F_generics;
 
 public class compareTo_Methood_CLASS<E> {
+    // 3130 extraItem
     public int getComparasionNumber(E o)
     {
         return(0);
@@ -9,4 +10,6 @@ public class compareTo_Methood_CLASS<E> {
     {
         return(0);
     }
+    // Implementation: "Map" but with "key"s being "getClass()" and "value"s being the following \n
+    // methood bodies above . \n
 }
