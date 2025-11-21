@@ -5,7 +5,7 @@ public interface compareTo_Methood<E> extends Triple_isEqualTo_Methoods<E>, Trip
     boolean isEqualTo(E other);
     boolean isGreaterThan(E other);
     boolean isLessThan(E other);
-    // 3130
+    // 3130 methood . \n
     /*
     public default int compareTo(E o)
     {
@@ -33,6 +33,20 @@ public interface compareTo_Methood<E> extends Triple_isEqualTo_Methoods<E>, Trip
         }
     }
     */
+    /*
+    // 3130 (Winter)
     public int getComparasionNumber(E o);
     public int getFilterNumber(E o);
+    */
+    // 3130 extraItem
+    public default int getComparasionNumber(E o)
+    {
+        compareTo_Methood_CLASS<E> compareTo_Methood_CLASS_object = new compareTo_Methood_CLASS<E>();
+        return(compareTo_Methood_CLASS_object.getComparasionNumber(o));
+    }
+    public default int getFilterNumber(E o)
+    {
+        compareTo_Methood_CLASS<E> compareTo_Methood_CLASS_object = new compareTo_Methood_CLASS<E>();
+        return(compareTo_Methood_CLASS_object.getFilterNumber(o));
+    }
 }
