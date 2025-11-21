@@ -126,12 +126,12 @@ public class NodeClasses<E> {
         Node3D_26Node<E> bottom_front_left; Node3D_26Node<E> bottom_front_Middle; Node3D_26Node<E> bottom_front_right;        /**/
 
         Node3D_26Node(E data) {
-            this(                              null, null, null,
-                                                    null, null, null,
-                                                    null, null, null,
-                                    null, null, null,
-                                    null, data, null,
-                                    null, null, null,
+            this(                                                                                                                       null, null, null,
+                                                                                                                                        null, null, null,
+                                                                                                                                        null, null, null,
+                                                                                    null, null, null,
+                                                                                    null, data, null,
+                                                                                    null, null, null,
                     null, null, null,
                     null, null, null,
                     null, null, null);
