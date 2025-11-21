@@ -1,7 +1,7 @@
 package Matthew_Glinik.F_generics;
 
 public interface Triple_isEqualTo_Methoods<E> {
-    boolean isEqualTo(E other);
+    boolean isEqualTo(E other);a
     /*
     default boolean equals(E other){
         return(false);
